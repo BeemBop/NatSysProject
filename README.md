@@ -4,8 +4,8 @@ Group Name: __Fill your team name__.
 
 Team Mates:
 1. Afnan Wajdi Bin Ramlee, 2117745
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+2. Bilal Farhan bin Mohd Kheiruddin, 2115305
+3. Muhammad Adam bin Zakaria, 2113577
 
 ## Rules
 1. You are allowed to have **3 group** members.
