@@ -246,11 +246,37 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
 ```
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+```bash
+@AdamZakaria528 ➜ /workspaces/NatSysProject (main) $ top
+top - 12:58:56 up  3:37,  0 users,  load average: 0.13, 0.19, 0.18
+Tasks:  36 total,   1 running,  35 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.3 us,  5.7 sy,  0.0 ni, 89.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  15981.1 total,   3605.1 free,   2577.4 used,   9798.5 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13056.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                 
+   3490 codespa+  20   0   21.1g 336092  46336 S   3.2   2.1   1:33.31 node                                                                                                                    
+  13497 codespa+  20   0   21.1g 336016  46336 S   2.4   2.1   1:16.49 node                                                                                                                    
+   3423 codespa+  20   0  975536 117628  41856 S   0.8   0.7   0:12.69 node                                                                                                                    
+  60893 codespa+  20   0   10880   3712   3200 R   0.8   0.0   0:00.01 top                                                                                                                     
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.28 docker-init                                                                                                             
+      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep  
+```
+10. Run the command **uname -a**. ***(1 mark)*** 
+```bash
+@AdamZakaria528 ➜ /workspaces/NatSysProject (main) $ uname -a
+Linux codespaces-fd2dcd 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
+11. What is the available free memory in the system. ***(1 mark)*** 
+```bash
+@AdamZakaria528 ➜ /workspaces/NatSysProject (main) $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           15Gi       2.5Gi       3.5Gi       1.0Mi       9.6Gi        12Gi
+Swap:            0B          0B          0B
+```
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** Around 20GB (20806844).
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __ubuntu 20.04.6 LTS hardware architecture is x86_64 which is 64-bit__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
