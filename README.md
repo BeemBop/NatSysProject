@@ -1,6 +1,6 @@
 # Net&Sys Assignment: Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: GalvanisedSquareSteel
 
 Team Mates:
 1. Afnan Wajdi Bin Ramlee, 2117745
