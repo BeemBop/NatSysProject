@@ -80,8 +80,130 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 /workspaces/NatSysProject
 ```
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
+3. Run the command **df** . ***(1 mark)*** 
+```bash
+@AdamZakaria528 ➜ /workspaces/NatSysProject (main) $ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10346740  20806844  34% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 24464416   5817376  81% /vscode
+/dev/sda1      123266624      156 116958732   1% /tmp
+/dev/loop3      32847680 10346740  20806844  34% /workspaces
+
+```
+4. Run the command **du** . ***(1 mark)*** 
+```bash
+@AdamZakaria528 ➜ /workspaces/NatSysProject (main) $ du
+8       ./.git/objects/86
+8       ./.git/objects/d8
+8       ./.git/objects/58
+12      ./.git/objects/b5
+16      ./.git/objects/4b
+8       ./.git/objects/f5
+20      ./.git/objects/a1
+8       ./.git/objects/04
+1824    ./.git/objects/pack
+12      ./.git/objects/af
+8       ./.git/objects/3f
+8       ./.git/objects/02
+12      ./.git/objects/05
+12      ./.git/objects/73
+8       ./.git/objects/f1
+8       ./.git/objects/b6
+8       ./.git/objects/96
+8       ./.git/objects/1b
+12      ./.git/objects/70
+12      ./.git/objects/ff
+8       ./.git/objects/4a
+8       ./.git/objects/f6
+8       ./.git/objects/ee
+8       ./.git/objects/cb
+12      ./.git/objects/1c
+8       ./.git/objects/6d
+8       ./.git/objects/52
+8       ./.git/objects/03
+8       ./.git/objects/c6
+16      ./.git/objects/81
+16      ./.git/objects/eb
+8       ./.git/objects/fd
+8       ./.git/objects/71
+8       ./.git/objects/24
+8       ./.git/objects/fa
+8       ./.git/objects/b3
+12      ./.git/objects/44
+8       ./.git/objects/5b
+8       ./.git/objects/f2
+8       ./.git/objects/a6
+12      ./.git/objects/3d
+12      ./.git/objects/ec
+8       ./.git/objects/3a
+8       ./.git/objects/cd
+8       ./.git/objects/b9
+12      ./.git/objects/0b
+12      ./.git/objects/72
+8       ./.git/objects/91
+12      ./.git/objects/bb
+12      ./.git/objects/64
+8       ./.git/objects/d1
+12      ./.git/objects/2e
+8       ./.git/objects/47
+8       ./.git/objects/74
+8       ./.git/objects/79
+12      ./.git/objects/69
+16      ./.git/objects/fb
+12      ./.git/objects/17
+8       ./.git/objects/b8
+8       ./.git/objects/e7
+8       ./.git/objects/60
+8       ./.git/objects/5e
+8       ./.git/objects/93
+8       ./.git/objects/a3
+8       ./.git/objects/54
+8       ./.git/objects/fe
+12      ./.git/objects/6e
+8       ./.git/objects/ab
+8       ./.git/objects/df
+16      ./.git/objects/f9
+12      ./.git/objects/e5
+8       ./.git/objects/4f
+8       ./.git/objects/8c
+8       ./.git/objects/b2
+8       ./.git/objects/83
+8       ./.git/objects/7b
+8       ./.git/objects/41
+4       ./.git/objects/info
+8       ./.git/objects/c3
+8       ./.git/objects/0d
+8       ./.git/objects/fc
+12      ./.git/objects/d2
+8       ./.git/objects/20
+8       ./.git/objects/88
+12      ./.git/objects/62
+12      ./.git/objects/14
+8       ./.git/objects/49
+8       ./.git/objects/e9
+8       ./.git/objects/19
+2668    ./.git/objects
+12      ./.git/logs/refs/remotes/origin
+16      ./.git/logs/refs/remotes
+8       ./.git/logs/refs/heads
+28      ./.git/logs/refs
+36      ./.git/logs
+12      ./.git/refs/remotes/origin
+16      ./.git/refs/remotes
+4       ./.git/refs/tags
+8       ./.git/refs/heads
+32      ./.git/refs
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/branches
+68      ./.git/hooks
+8       ./.git/info
+2860    ./.git
+1972    ./images
+4852    .
+```
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
