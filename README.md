@@ -370,7 +370,7 @@ root@f65be1987f84:~# cd /root
 root@f65be1987f84:~# nano helloworld.txt
 ```
 
-5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit** __As you can see below, our helloworld.txt is created__
+5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**. __As you can see below, our helloworld.txt is created__
 ```bash
 root@8e12d165e9a2:/# cd /root
 root@8e12d165e9a2:~# nano helloworld.txt
