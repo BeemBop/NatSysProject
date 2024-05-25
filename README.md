@@ -306,7 +306,12 @@ Swap:            0B          0B          0B
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Around 20GB (20806844)__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __ubuntu 20.04.6 LTS hardware architecture is x86_64 which is 64-bit__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls list down the files in current directory.Meanwhile ls -asl list down the file, folder, and files in the folder existing in current directory plus additional information regarding permission, ownership, size, modification date and group membership__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** we found that our TLB size is 2560 4K pages through this command
+```bash
+@VeneerWood ➜ /workspaces/NatSysProject (main) $ cat /proc/cpuinfo | grep -i tlb
+TLB size        : 2560 4K pages
+TLB size        : 2560 4K pages
+```
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
