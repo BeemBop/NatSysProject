@@ -417,7 +417,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 @VeneerWood ➜ /workspaces/NatSysProject (main) $ docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes we can__.
 
 ## Running your own container with persistent storage
 
