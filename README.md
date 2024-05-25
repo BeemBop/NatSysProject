@@ -506,6 +506,15 @@ docker run -itd --net rednet --name c2 busybox sh
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __busybox compiles few utilities that are usually present in linux such as mv, cat etc. Meanwhile --name is used to give a name to container being created, here we give name c1 to bluenet and c2 to rednet__.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
+```bash
+@VeneerWood ➜ /workspaces/NatSysProject (main) $ docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+c45b1f0360e9   bluenet   bridge    local
+e6e2d417d796   bridge    bridge    local
+663049c0b971   host      host      local
+9d8827201505   none      null      local
+be85e40cf36d   rednet    bridge    local
+```
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
 4. What is the network address for the running container c1 and c2.
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
