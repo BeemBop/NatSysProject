@@ -303,9 +303,9 @@ Linux codespaces-fd2dcd 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08
 Mem:           15Gi       2.5Gi       3.5Gi       1.0Mi       9.6Gi        12Gi
 Swap:            0B          0B          0B
 ```
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** Around 20GB (20806844).
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Around 20GB (20806844)__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __ubuntu 20.04.6 LTS hardware architecture is x86_64 which is 64-bit__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** ls list down the files in current directory.Meanwhile ls -l does the same but with additional information regarding permission, ownership, size, modification date and group membership.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls list down the files in current directory.Meanwhile ls -l does the same but with additional information regarding permission, ownership, size, modification date and group membership__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
