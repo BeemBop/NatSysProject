@@ -515,7 +515,7 @@ e6e2d417d796   bridge    bridge    local
 9d8827201505   none      null      local
 be85e40cf36d   rednet    bridge    local
 ```
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***__gateway for bluenet is 172.18.0.1 while gateway for rednet is 172.19.0.1__
 4. What is the network address for the running container c1 and c2.
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 
