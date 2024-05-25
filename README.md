@@ -449,7 +449,12 @@ total 8
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+```bash
+@VeneerWood ➜ /workspaces/NatSysProject/myroot (main) $ ls -asl
+total 8
+4 drwxrwxrwx+ 2 codespace codespace 4096 May 25 09:35 .
+4 drwxrwxrwx+ 5 codespace root      4096 May 25 09:35 ..
+```
 
 ## You are on your own, create your own static webpage
 
