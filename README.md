@@ -412,7 +412,11 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __No, the helloworld.txt files was deleted as well simply because we deleted the container, as we can see from below, the loving_rhodes container is no longer here, alongside with the files created inside it__.
+```bash
+@VeneerWood ➜ /workspaces/NatSysProject (main) $ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container with persistent storage
