@@ -317,7 +317,27 @@ TLB size        : 2560 4K pages
 @VeneerWood ➜ /workspaces/NatSysProject (main) $ lscpu | grep "CPU MHz"
 CPU MHz:                            3244.046
 ```
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The first line consumes the most cpu(2.3%)__
+```bash
+top - 03:54:10 up  3:20,  0 users,  load average: 0.07, 0.14, 0.18
+Tasks:  20 total,   1 running,  19 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.8 us,  2.9 sy,  0.0 ni, 94.4 id,  0.6 wa,  0.0 hi,  0.3 si,  0.0 st
+MiB Mem :   7929.6 total,    282.6 free,   1523.8 used,   6123.2 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6089.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                 
+   2437 codespa+  20   0   21.1g 343908  46336 S   2.3   4.2   1:23.85 node                                                                                    
+   2898 codespa+  20   0  730748  64544  38656 S   0.6   0.8   0:03.33 node                                                                                    
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.30 docker-init                                                                             
+      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                                                   
+     68 root      20   0   12196   3352   2432 S   0.0   0.0   0:00.00 sshd                                                                                    
+    904 root      20   0 2057164  88680  52864 S   0.0   1.1   0:01.32 dockerd                                                                                 
+    911 root      20   0 1798408  48720  30464 S   0.0   0.6   0:03.10 containerd                                                                              
+   2125 codespa+  20   0    2616   1536   1536 S   0.0   0.0   0:00.01 sh                                                                                      
+   2193 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                                                      
+   2344 codespa+  20   0    2624   1408   1408 S   0.0   0.0   0:00.01 sh                                                                                      
+   2353 codespa+  20   0  966416 107496  42240 S   0.0   1.3   0:08.55 node
+```
 
 ## Running your own container instance.
 
